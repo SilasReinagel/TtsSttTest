@@ -17,10 +17,6 @@ export const textToSpeech = async (filePath) => {
 
   if (error) 
     throw error;
-  if (!error) {
-    console.dir(result, { depth: null });
-    console.log({ result })
-  }
   return result.results.channels[0].alternatives[0].transcript
 };
 

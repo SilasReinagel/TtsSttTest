@@ -17,6 +17,7 @@
     "dotenv": "^16.4.5",
     "fluent-ffmpeg": "^2.1.2",
     "mic": "^2.1.2",
-    "openai": "^4.29.2"
+    "openai": "^4.29.2",
+    "play-sound": "^1.1.6"
   }
 }
