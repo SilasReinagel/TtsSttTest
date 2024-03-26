@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
+    "athena": "node src/index.js athena",
     "test": "echo \"Error: no test specified\" && exit 1",
     "install-mac": "brew install sox && brew install ffmpeg"
   },

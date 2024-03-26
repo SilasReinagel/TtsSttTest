@@ -28,7 +28,7 @@ export class AudioFileRecorder {
   stop() {
     if (this.micInstance) {
       this.micInstance.stop();
-      console.log('Recording stopped and saved to ' + this.filePath);
+      //console.log('Recording stopped and saved to ' + this.filePath);
       return this.filePath
     } else {
       console.log('Recording has not been started');

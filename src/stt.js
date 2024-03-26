@@ -16,12 +16,6 @@ export const speechToText = async (text, fileName, options) => {
   );
   // STEP 3: Get the audio stream and headers from the response
   const stream = await response.getStream();
-  
-  // Optional: Log Headers
-  const headers = await response.getHeaders();
-  if (headers) {
-    console.log("Headers:", headers);
-  }
 
   if (stream) {
     // STEP 4: Convert the stream to an audio buffer
